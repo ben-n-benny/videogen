@@ -1,0 +1,155 @@
+{
+  "title": "The 18,000-Mile Voyage of Doom (1904-1905)",
+  "hook_headline": "THE 18,000-MILE VOYAGE OF DOOM",
+  "theme": "history",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "output": "output/baltic_fleet_1905_1080p.mp4",
+  "default_overlay_fx": "embers",
+  "retention": {
+    "enabled": true,
+    "trim_vo_silence": true,
+    "vo_speed": 1.0,
+    "vo_eq_boost": true,
+    "hook_flash": true,
+    "hook_banner_duration": 3.0,
+    "auto_pattern_interrupt": true,
+    "pattern_interrupt_threshold": 4.0,
+    "progress_bar": true,
+    "progress_bar_color": "#FFD700",
+    "loop_ending": true
+  },
+  "background_music": {
+    "path": "assets/audio/bgm_naval_tension.wav",
+    "volume": 0.16,
+    "ducking": true
+  },
+  "caption_style": {
+    "font_name": "Impact",
+    "font_size": 82,
+    "primary_color": "#EAEAEA",
+    "highlight_color": "#FFD700",
+    "power_color": "#FF3B30",
+    "number_color": "#00F0FF",
+    "outline_color": "#000000",
+    "outline": 6,
+    "shadow": 4,
+    "margin_v": 340,
+    "uppercase": true,
+    "mode": "word_highlight",
+    "semantic_colors": true,
+    "max_words_per_chunk": 3
+  },
+  "scenes": [
+    {
+      "id": "fleet_departure",
+      "badge": "OCTOBER 1904 \u2022 RUSSIAN BALTIC FLEET",
+      "callout": "EXPEDITION: 45 WARSHIPS // TARGET: JAPAN (18,000 MILES)",
+      "media": "assets/images/01_baltic_fleet_departure.png",
+      "voiceover": "assets/voiceovers/vo_01.wav",
+      "caption": "In 1904, Russia sent 45 warships on an 18,000-mile voyage around the world to fight Japan \u2014 and it turned into the greatest disaster in naval history.",
+      "fit": "cover",
+      "effect": "zoom_in",
+      "grade": "vintage",
+      "overlay_fx": "embers",
+      "transition": "cut",
+      "sfx": "assets/audio/cannon_salvo.wav",
+      "sfx_volume": 0.42
+    },
+    {
+      "id": "voyage_map",
+      "badge": "DOGGER BANK INCIDENT \u2022 NORTH SEA",
+      "callout": "FRIENDLY FIRE & PHANTOM TORPEDO BOATS across 3 OCEANS",
+      "media": "assets/videos/02_voyage_map_18000mi.mp4",
+      "voiceover": "assets/voiceovers/vo_02.wav",
+      "caption": "Barely out of port in the North Sea, panicked lookouts mistook British fishing trawlers for Japanese torpedo boats, and opened fire for 20 minutes.",
+      "fit": "cover",
+      "grade": "none",
+      "overlay_fx": "none",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "builtin:whoosh",
+      "sfx_volume": 0.35
+    },
+    {
+      "id": "madagascar_zoo",
+      "badge": "JANUARY 1905 \u2022 MADAGASCAR ANCHORAGE",
+      "callout": "ONBOARD CHAOS: ESCAPED CROCODILES, SNAKES & TROPICAL HEAT",
+      "media": "assets/images/03_madagascar_chaos.png",
+      "voiceover": "assets/voiceovers/vo_03.wav",
+      "caption": "Stopping in Madagascar, sailors adopted crocodiles and venomous snakes that escaped inside the warships, turning the fleet into a floating zoo.",
+      "fit": "cover",
+      "effect": "pan_right",
+      "grade": "vintage",
+      "overlay_fx": "embers",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "builtin:whoosh",
+      "sfx_volume": 0.32
+    },
+    {
+      "id": "tsushima_tactical",
+      "badge": "MAY 27, 1905 \u2022 BATTLE OF TSUSHIMA",
+      "callout": "TACTICAL MANEUVER: ADMIRAL TOGO CROSSES THE RUSSIAN 'T'",
+      "media": "assets/videos/04_tsushima_crossing_t.mp4",
+      "voiceover": "assets/voiceovers/vo_04.wav",
+      "caption": "After 7 exhausting months at sea, the fleet finally reached Tsushima Strait \u2014 where Admiral Togo crossed their T and wiped them out in a single afternoon.",
+      "fit": "cover",
+      "grade": "none",
+      "overlay_fx": "none",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/cannon_salvo.wav",
+      "sfx_volume": 0.45
+    },
+    {
+      "id": "tsushima_aftermath",
+      "badge": "THE AFTERMATH \u2022 END OF AN EMPIRE",
+      "callout": "FINAL SCORE: 8 OF 8 RUSSIAN BATTLESHIPS LOST // 0 JAPANESE LOST",
+      "media": "assets/images/05_tsushima_aftermath.png",
+      "voiceover": "assets/voiceovers/vo_05.wav",
+      "caption": "Out of 8 Russian battleships, every single one was sunk or captured, while Japan didn't lose a single capital ship.",
+      "fit": "cover",
+      "effect": "zoom_out",
+      "grade": "vintage",
+      "overlay_fx": "embers",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/cannon_salvo.wav",
+      "sfx_volume": 0.38
+    }
+  ],
+  "youtube_metadata": {
+    "titles": [
+      "The Worst Naval Voyage in Human History \ud83d\ude31 #shorts",
+      "When Russia Sailed 18,000 Miles Just to Lose in 1 Day #shorts",
+      "How 45 Russian Warships Turned Into a Floating Zoo \ud83d\udc80 #shorts",
+      "The 18,000-Mile Voyage of Doom (1904\u20131905) #shorts",
+      "Why the Russian Baltic Fleet Shot at Fishing Boats #shorts"
+    ],
+    "pinned_comments": [
+      "\ud83d\udccc Wait until you read about the warship that bought 2,000 pairs of winter boots in Madagascar \ud83d\udc80 Which part of this voyage was the wildest? Comment below & SUBSCRIBE for daily untold history!",
+      "\ud83d\udccc How did Admiral Rozhestvensky not lose his mind on this trip?! Drop a comment if you want Part 2 on the kamchatka supply ship \ud83d\udc47 And hit SUBSCRIBE!",
+      "\ud83d\udccc 18,000 miles at sea for 7 months only to be wiped out in one afternoon at Tsushima. Was this the biggest military disaster ever? Comment YES or NO \ud83d\udc47"
+    ],
+    "hashtags": "#shorts #history #navalhistory #militaryhistory #documentary #historyfacts #tsushima #russianhistory #viral #storytime",
+    "tags": [
+      "Russian Baltic Fleet",
+      "2nd Pacific Squadron",
+      "Battle of Tsushima 1905",
+      "Dogger Bank Incident",
+      "Russo-Japanese War",
+      "Admiral Togo Crossing the T",
+      "crazy naval history",
+      "worst military disasters",
+      "history shorts",
+      "animated history map",
+      "documentary shorts",
+      "military history shorts",
+      "untold history"
+    ]
+  }
+}

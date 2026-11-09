@@ -1,0 +1,105 @@
+{
+  "title": "The 38-Minute War (Zanzibar, 1896)",
+  "theme": "history",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "output": "output/history_short_1080p.mp4",
+  "background_music": {
+    "path": "assets/audio/bgm_ambient_drone.wav",
+    "volume": 0.16,
+    "ducking": true
+  },
+  "caption_style": {
+    "font_name": "Impact",
+    "font_size": 76,
+    "primary_color": "#FFFFFF",
+    "highlight_color": "#FFD700",
+    "outline_color": "#000000",
+    "outline": 5,
+    "shadow": 3,
+    "margin_v": 340,
+    "uppercase": true,
+    "mode": "word_highlight",
+    "max_words_per_chunk": 5
+  },
+  "scenes": [
+    {
+      "id": "hook_1896",
+      "badge": "AUGUST 27, 1896 \u2022 ZANZIBAR",
+      "media": "assets/images/01_zanzibar_palace_16x9.jpg",
+      "voiceover": "assets/voiceovers/vo_01.wav",
+      "caption": "In 1896, the shortest war in human history started and ended in just 38 minutes.",
+      "fit": "blur_pad",
+      "effect": "zoom_in",
+      "grade": "vintage",
+      "transition": "cut"
+    },
+    {
+      "id": "palace_coup",
+      "badge": "08:00 AM \u2022 THE STANDOFF",
+      "media": "assets/images/02_ultimatum_9x16.jpg",
+      "voiceover": "assets/voiceovers/vo_02.wav",
+      "caption": "When the Sultan of Zanzibar died suddenly, his nephew seized the palace without British approval and barricaded himself inside.",
+      "fit": "cover",
+      "effect": "pan_down",
+      "grade": "vintage",
+      "transition": "fadeblack",
+      "transition_duration": 0.35,
+      "sfx": "assets/audio/whoosh.wav",
+      "sfx_volume": 0.3
+    },
+    {
+      "id": "bombardment",
+      "badge": "09:02 AM \u2022 HARBOR BOMBARDMENT",
+      "media": "assets/videos/03_naval_bombardment.mp4",
+      "voiceover": "assets/voiceovers/vo_03.wav",
+      "caption": "At exactly 9:00 AM, five Royal Navy warships in the harbor opened fire, shattering the palace artillery in minutes.",
+      "fit": "blur_pad",
+      "grade": "cinematic",
+      "transition": "dissolve",
+      "transition_duration": 0.35,
+      "sfx": "assets/audio/whoosh.wav",
+      "sfx_volume": 0.3
+    },
+    {
+      "id": "aftermath",
+      "badge": "09:40 AM \u2022 RECORD SET",
+      "media": "assets/images/04_aftermath_16x9.jpg",
+      "voiceover": "assets/voiceovers/vo_04.wav",
+      "caption": "By 9:40 AM, the Sultan's flag was shot down, making it the fastest military conflict ever recorded.",
+      "fit": "blur_pad",
+      "effect": "zoom_out",
+      "grade": "vintage",
+      "transition": "fadeblack",
+      "transition_duration": 0.35
+    }
+  ],
+  "youtube_metadata": {
+    "titles": [
+      "The War That Started and Ended in 38 Minutes \u23f1\ufe0f #shorts",
+      "The Shortest War in Human History (Zanzibar, 1896) #shorts",
+      "When the British Navy Ended a War in 38 Minutes #shorts",
+      "This Entire War Lasted Less Than a TV Episode \ud83d\udc80 #shorts",
+      "Why the Anglo-Zanzibar War Only Lasted 38 Minutes #shorts"
+    ],
+    "pinned_comments": [
+      "\ud83d\udccc Fun fact: After the 38-minute war ended, the British government billed Zanzibar for the shells they fired at the palace \ud83d\udc80 Subscribe for more wild history facts! \ud83d\udc47",
+      "\ud83d\udccc 9:02 AM to 9:40 AM \u2014 shorter than a single history class! What is your favorite bizarre historical fact? Drop it below & SUBSCRIBE! \ud83d\udd14",
+      "\ud83d\udccc Should we do the Emu War of 1932 next? Comment YES below \ud83d\udc47"
+    ],
+    "hashtags": "#shorts #history #38minutewar #zanzibar #militaryhistory #historyfacts #didyouknow #documentary #viral #storytime",
+    "tags": [
+      "38 Minute War",
+      "Anglo-Zanzibar War 1896",
+      "shortest war in history",
+      "Zanzibar 1896",
+      "British Royal Navy history",
+      "bizarre history facts",
+      "history shorts",
+      "documentary shorts"
+    ]
+  }
+}

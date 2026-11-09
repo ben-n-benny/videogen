@@ -1,0 +1,142 @@
+{
+  "title": "1816: The Year Without a Summer",
+  "hook_headline": "THE YEAR SUMMER NEVER CAME",
+  "theme": "history",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "output": "output/year_without_a_summer_1080p.mp4",
+  "retention": {
+    "enabled": true,
+    "trim_vo_silence": true,
+    "vo_speed": 1.06,
+    "vo_eq_boost": true,
+    "hook_flash": true,
+    "hook_banner_duration": 2.9,
+    "auto_pattern_interrupt": true,
+    "pattern_interrupt_threshold": 4.0,
+    "progress_bar": true,
+    "progress_bar_color": "#FFD700",
+    "loop_ending": true
+  },
+  "background_music": {
+    "path": "assets/audio/bgm_dark_history.wav",
+    "volume": 0.16,
+    "ducking": true
+  },
+  "caption_style": {
+    "font_name": "Impact",
+    "font_size": 82,
+    "primary_color": "#EAEAEA",
+    "highlight_color": "#FFD700",
+    "power_color": "#FF3B30",
+    "number_color": "#00F0FF",
+    "outline_color": "#000000",
+    "outline": 6,
+    "shadow": 4,
+    "margin_v": 350,
+    "uppercase": true,
+    "mode": "word_highlight",
+    "semantic_colors": true,
+    "max_words_per_chunk": 3
+  },
+  "scenes": [
+    {
+      "id": "hook_1816",
+      "badge": "1816 \u2022 GLOBAL CLIMATE ANOMALY",
+      "media": "assets/images/02_blood_red_sky.png",
+      "voiceover": "assets/voiceovers/vo_01.wav",
+      "caption": "In 1816, summer simply never arrived. Historians call it the Year Without a Summer.",
+      "fit": "cover",
+      "effect": "zoom_in",
+      "grade": "vintage",
+      "transition": "cut",
+      "sfx": "builtin:boom",
+      "sfx_volume": 0.42
+    },
+    {
+      "id": "tambora_1815",
+      "badge": "APRIL 1815 \u2022 MOUNT TAMBORA",
+      "media": "assets/images/01_tambora_eruption.png",
+      "voiceover": "assets/voiceovers/vo_02.wav",
+      "caption": "Months earlier, Indonesia's Mount Tambora exploded in the largest volcanic eruption in recorded history, blasting a veil of ash across the planet.",
+      "fit": "cover",
+      "effect": "shake_zoom",
+      "grade": "cinematic",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/volcano_rumble.wav",
+      "sfx_volume": 0.48
+    },
+    {
+      "id": "june_blizzard",
+      "badge": "JUNE 1816 \u2022 NEW ENGLAND BLIZZARD",
+      "media": "assets/videos/03_june_blizzard.mp4",
+      "voiceover": "assets/voiceovers/vo_03.wav",
+      "caption": "By June, relentless blizzards buried New England in snow, lakes froze solid in July, and crops across the Northern Hemisphere died overnight.",
+      "fit": "blur_pad",
+      "grade": "cinematic",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/cold_whoosh.wav",
+      "sfx_volume": 0.38
+    },
+    {
+      "id": "mary_shelley",
+      "badge": "GENEVA, SWITZERLAND \u2022 VILLA DIODATI",
+      "media": "assets/images/04_mary_shelley_geneva.png",
+      "voiceover": "assets/voiceovers/vo_04.wav",
+      "caption": "Trapped indoors by the endless dark storms in Switzerland, an 18-year-old Mary Shelley passed the time by writing Frankenstein.",
+      "fit": "cover",
+      "effect": "zoom_in_top",
+      "grade": "vintage",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "builtin:riser",
+      "sfx_volume": 0.3
+    },
+    {
+      "id": "outro_legacy",
+      "badge": "THE BUTTERFLY EFFECT OF HISTORY",
+      "media": "assets/images/05_global_aftermath.png",
+      "voiceover": "assets/voiceovers/vo_05.wav",
+      "caption": "One volcano on the other side of the Earth froze the world in July and changed human history forever.",
+      "fit": "cover",
+      "effect": "zoom_out",
+      "grade": "vintage",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "builtin:boom",
+      "sfx_volume": 0.38
+    }
+  ],
+  "youtube_metadata": {
+    "titles": [
+      "1816: The Year Summer Simply Never Came \u2744\ufe0f #shorts",
+      "How One Volcano Froze the Entire World in July #shorts",
+      "When 18 Inches of Snow Fell in June (1816) \ud83d\ude31 #shorts",
+      "How a Volcano in Indonesia Created Frankenstein #shorts",
+      "Mount Tambora: The Eruption That Cancelled Summer #shorts"
+    ],
+    "pinned_comments": [
+      "\ud83d\udccc Crazy to think that without Mount Tambora erupting in Indonesia, Mary Shelley might never have written Frankenstein! Which butterfly effect in history blows your mind? Comment & SUBSCRIBE! \ud83d\udc47",
+      "\ud83d\udccc Imagine waking up in June to 18 inches of snow and frozen lakes with zero warning of why it was happening. Would you survive 1816? Comment below & Subscribe! \ud83d\udd14",
+      "\ud83d\udccc Mount Tambora was 10x stronger than Krakatoa. What natural disaster in history should we cover next? Drop a comment below!"
+    ],
+    "hashtags": "#shorts #history #1816 #volcano #documentary #historyfacts #frankenstein #climatehistory #didyouknow #storytime",
+    "tags": [
+      "1816 Year Without a Summer",
+      "Mount Tambora eruption 1815",
+      "volcanic winter",
+      "Mary Shelley Frankenstein 1816",
+      "snow in June New England",
+      "largest volcanic eruption in history",
+      "history shorts",
+      "documentary shorts",
+      "butterfly effect history",
+      "crazy history facts"
+    ]
+  }
+}

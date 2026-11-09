@@ -1,0 +1,154 @@
+{
+  "title": "Project Azorian: The CIA's Giant Ocean Claw",
+  "hook_headline": "THE CIA'S GIANT OCEAN CLAW",
+  "theme": "commentary",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "output": "output/project_azorian_1080p.mp4",
+  "default_overlay_fx": "radar_hud",
+  "retention": {
+    "enabled": true,
+    "trim_vo_silence": true,
+    "vo_speed": 1.0,
+    "vo_eq_boost": true,
+    "hook_flash": true,
+    "hook_banner_duration": 2.9,
+    "auto_pattern_interrupt": true,
+    "pattern_interrupt_threshold": 4.0,
+    "progress_bar": true,
+    "progress_bar_color": "#00FF88",
+    "loop_ending": true
+  },
+  "background_music": {
+    "path": "assets/audio/bgm_cold_war_pulse.wav",
+    "volume": 0.16,
+    "ducking": true
+  },
+  "caption_style": {
+    "font_name": "Impact",
+    "font_size": 82,
+    "primary_color": "#EAEAEA",
+    "highlight_color": "#00FF88",
+    "power_color": "#FF3B30",
+    "number_color": "#00F0FF",
+    "outline_color": "#000000",
+    "outline": 6,
+    "shadow": 4,
+    "margin_v": 340,
+    "uppercase": true,
+    "mode": "word_highlight",
+    "semantic_colors": true,
+    "max_words_per_chunk": 3
+  },
+  "scenes": [
+    {
+      "id": "k129_sinks",
+      "badge": "MARCH 1968 \u2022 PACIFIC OCEAN",
+      "callout": "TARGET: SOVIET SUB K-129 // NUCLEAR BALLISTIC MISSILES",
+      "media": "assets/images/01_soviet_k129_sub.png",
+      "voiceover": "assets/voiceovers/vo_01.wav",
+      "caption": "In 1968, a Soviet nuclear missile submarine sank in the Pacific Ocean, and Moscow couldn't find the wreck.",
+      "fit": "cover",
+      "effect": "zoom_in",
+      "grade": "cinematic",
+      "overlay_fx": "radar_hud",
+      "transition": "cut",
+      "sfx": "assets/audio/sonar_ping.wav",
+      "sfx_volume": 0.45
+    },
+    {
+      "id": "depth_dive_16500",
+      "badge": "CLASSIFIED SOSUS HYDROPHONE FIX",
+      "callout": "DEPTH: 16,500 FT (3.1 MILES) // CRUSH PRESSURE: 7,300 PSI",
+      "media": "assets/videos/02_ocean_depth_dive.mp4",
+      "voiceover": "assets/voiceovers/vo_02.wav",
+      "caption": "But the U.S. Navy secretly pinpointed it 3 miles deep, resting at 16,500 feet below the surface.",
+      "fit": "cover",
+      "grade": "none",
+      "overlay_fx": "none",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/sonar_ping.wav",
+      "sfx_volume": 0.4
+    },
+    {
+      "id": "glomar_explorer",
+      "badge": "1972 \u2022 THE HOWARD HUGHES COVER STORY",
+      "callout": "VESSEL: HUGHES GLOMAR EXPLORER // COST: $500 MILLION",
+      "media": "assets/images/03_glomar_explorer_ship.png",
+      "voiceover": "assets/voiceovers/vo_03.wav",
+      "caption": "To steal it without starting World War 3, the CIA partnered with billionaire Howard Hughes to build a fake deep-sea mining ship.",
+      "fit": "cover",
+      "effect": "pan_down",
+      "grade": "cinematic",
+      "overlay_fx": "blueprint_hud",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "builtin:whoosh",
+      "sfx_volume": 0.35
+    },
+    {
+      "id": "claw_extraction",
+      "badge": "AUGUST 1974 \u2022 OPERATION AZORIAN",
+      "callout": "CAPTURE VEHICLE: 'CLEMENTINE' // 3-MILE STEEL PIPE STRING",
+      "media": "assets/videos/04_claw_extraction.mp4",
+      "voiceover": "assets/voiceovers/vo_04.wav",
+      "caption": "Hidden inside was a giant mechanical claw that lowered on 3 miles of steel pipe and grabbed the Soviet submarine off the ocean floor.",
+      "fit": "cover",
+      "grade": "none",
+      "overlay_fx": "none",
+      "transition": "fadeblack",
+      "transition_duration": 0.25,
+      "sfx": "builtin:boom",
+      "sfx_volume": 0.42
+    },
+    {
+      "id": "cold_war_legacy",
+      "badge": "DECLASSIFIED \u2022 COLD WAR INTELLIGENCE",
+      "callout": "RECOVERED: 2 NUCLEAR TORPEDOES & CRYPTOGRAPHIC MATERIALS",
+      "media": "assets/images/05_cold_war_heist.png",
+      "voiceover": "assets/voiceovers/vo_05.wav",
+      "caption": "Even though part of the hull broke away during the lift, Project Azorian remains the most audacious ocean heist in Cold War history.",
+      "fit": "cover",
+      "effect": "zoom_out",
+      "grade": "cinematic",
+      "overlay_fx": "embers",
+      "transition": "dissolve",
+      "transition_duration": 0.25,
+      "sfx": "assets/audio/sonar_ping.wav",
+      "sfx_volume": 0.38
+    }
+  ],
+  "youtube_metadata": {
+    "titles": [
+      "When the CIA Built a Giant Claw to Steal a Soviet Sub \ud83d\ude31 #shorts",
+      "The  Cold War Heist 3 Miles Under the Ocean #shorts",
+      "How Howard Hughes Helped the CIA Steal a Nuclear Sub #shorts",
+      "Project Azorian: The Craziest Heist in Cold War History #shorts",
+      "3 Miles Deep: The Secret CIA Submarine Claw (1974) #shorts"
+    ],
+    "pinned_comments": [
+      "\ud83d\udccc The CIA still refuses to declassify whether they got the Soviet codebooks from the forward hull \ud83d\udc40 Do you think they actually recovered the whole thing? Comment below & SUBSCRIBE!",
+      "\ud83d\udccc Building a fake  billionaire mining ship just to hide a 3-mile mechanical claw is peak Cold War insanity. Subscribe for more declassified history! \ud83d\udd14",
+      "\ud83d\udccc 16,500 feet is deeper than the Titanic wreck! What declassified Cold War operation should we animate next? Drop it in the comments \ud83d\udc47"
+    ],
+    "hashtags": "#shorts #coldwar #cia #history #documentary #submarines #projectazorian #declassified #militaryhistory #historyfacts",
+    "tags": [
+      "Project Azorian",
+      "Hughes Glomar Explorer",
+      "Soviet Submarine K-129",
+      "CIA giant claw",
+      "Cold War history",
+      "declassified CIA operations",
+      "Howard Hughes CIA",
+      "deep sea heist",
+      "history shorts",
+      "commentary shorts",
+      "documentary shorts",
+      "submarine history"
+    ]
+  }
+}
